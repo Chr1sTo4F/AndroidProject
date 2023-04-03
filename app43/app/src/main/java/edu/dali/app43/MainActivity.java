@@ -1,3 +1,4 @@
+//author:0000FF
 package edu.dali.app43;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -47,10 +48,10 @@ public class MainActivity extends AppCompatActivity {
         for (int i=0;i<10;i++)
         {
         Map<String,Object> map =new HashMap<String,Object>();
-        map.put("title","美食"+(i+1));        //desc
-
+        map.put("title","美食"+(i+1));
+        //desc
         map.put("ImgId",R.drawable.jubao);
-        map.put("ImgId",R.drawable.qrcode);
+        list.add(map);
         }
     }
 }
