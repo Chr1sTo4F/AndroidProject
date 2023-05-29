@@ -11,14 +11,6 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
-            android:text="会员中心"
-            android:textSize="20sp" />
-
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -28,6 +20,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="400dp"
                 app:srcCompat="@drawable/jubao" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="330dp"
+                android:layout_height="50dp"
+                android:layout_alignRight="@id/imageView7"
+                android:layout_alignParentBottom="false"
+                android:gravity="fill_vertical"
+                android:text="0000FF" />
 
             <ImageView
                 android:id="@+id/imageView8"
